@@ -1,5 +1,26 @@
 *.result.cache
-vendor/
-.idea/
-tests/_data/cleared
-tmp/*.log
+/vendor/
+/.idea/
+/tests/_data/cleared
+/tmp/*.log
+/tests/_data/valid/Jerome Price feat. Mei Mei - Freak.mp3
+/tests/_data/valid/Calvin Harris and Dua Lipa - One Kiss.mp3
+/tests/_data/valid/Christopher Franke - Morphing Space Ambient Mix Loung Ambient Gruppa Antistressmusic.mp3
+/tests/_data/valid/Jem - They.mp3
+/tests/_data/valid/Nelly Furtado - Say It Right.mp3
+/tests/_data/valid/Triplo Max - Shadow.mp3
+/tests/_data/valid/Alan Walker - Faded.mp3
+/tests/_data/valid/Vanotek - Love Is Gone.mp3
+/tests/_data/valid/Lil Nas X and Billy Ray Cyrus - Old Town Road (Remix).mp3
+/tests/_data/valid/Alan Walker feat. ASAP Rocky - Live Fast.mp3
+/tests/_data/valid/Post Malone - Circles.mp3
+/tests/_data/valid/Aaron Smith - Dancing.mp3
+/tests/_data/valid/Alan Walker - The Spectre.mp3
+/tests/_data/valid/Daddy Yankee _ Katy Perry feat. SNoW - Con Calma.mp3
+/tests/_data/valid/Kendrick Lamar - Element.mp3
+/tests/_data/valid/Alan Walker feat. Sabrina Carpenter _ Farruko - On My Way.mp3
+/tests/_data/valid/Allegro - Someone Else.mp3
+/tests/_data/valid/Alan Walker - Fade.mp3
+/tests/_data/valid/Ava Max - So am I.mp3
+/tests/_data/valid/Ellie Goulding feat. Juice WRLD - Hate Me.mp3
+/tests/_data/valid/Kwabs - Walk.mp3
