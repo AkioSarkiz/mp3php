@@ -1,3 +1,5 @@
 *.result.cache
 vendor/
 .idea/
+tests/_data/cleared
+tmp/*.log
