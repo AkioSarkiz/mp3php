@@ -49,10 +49,9 @@ class Mp3 implements Mp3Interface
      */
     public function isValid(): bool
     {
-        $logfile = __DIR__ . '/../tmp/error.tmp.log';
-        $command = "ffmpeg -v error -i \"{$this->path}\" -f null - 2>\"$logfile\"";
-        shell_exec($command);
-        return mb_strlen(file_get_contents($logfile)) === 0;
+        $command = "ffprobe -loglevel error -i \"{$this->path}\" 2>&1";
+        $errors = shell_exec($command);
+        return is_null($errors) || mb_strlen($errors) === 0;
     }
 
     /**
