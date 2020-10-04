@@ -1,7 +1,7 @@
 *.result.cache
 /vendor/
 /.idea/
-/tests/_data/cleared/*.*
+/tests/_data/cleared/*.mp3
 /tmp/*.log
 /tests/_data/valid/Jerome Price feat. Mei Mei - Freak.mp3
 /tests/_data/valid/Calvin Harris and Dua Lipa - One Kiss.mp3
