@@ -1,4 +1,7 @@
 # MP3 PHP
+
+![build](https://travis-ci.org/AkioSarkiz/mp3php.svg?branch=master)
+
 Package for manipulation mp3 files in php. 
 
 ### Requires  
