@@ -1,6 +1,6 @@
 # MP3 PHP
 
-![build](https://travis-ci.org/AkioSarkiz/mp3php.svg?branch=master)
+[![Build Status](https://travis-ci.org/AkioSarkiz/php-mp3.svg?branch=master)](https://travis-ci.org/AkioSarkiz/php-mp3)
 
 Package for manipulation mp3 files in php. 
 
