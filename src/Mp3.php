@@ -97,9 +97,19 @@ class Mp3 implements Mp3Interface
     /**
      * @inheritDoc
      */
-    public function getKbs(): float
+    public function getKbs(): int
     {
-        return floatval($this->getInfo()['streams'][0]['bit_rate']);
+        $info = $this->getInfo();
+
+        if (
+            array_key_exists('steams', $info) &&
+            count($info, 'steams') > 0 &&
+            array_key_exists('bit_rate', $info['steams'][0])
+        ) {
+            return (int) $info['streams'][0]['bit_rate'];
+        }
+
+        return (int) $info['format']['bit_rate'];
     }
 
     /**

@@ -80,9 +80,9 @@ interface Mp3Interface
     /**
      * Get kbs of mp3.
      *
-     * @return float
+     * @return int
      */
-    public function getKbs(): float;
+    public function getKbs(): int;
 
     /**
      * Get info about mp3.
